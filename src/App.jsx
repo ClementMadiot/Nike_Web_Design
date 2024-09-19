@@ -1,5 +1,28 @@
+import {
+  Nav,
+  Hero,
+  Products,
+  Quality,
+  Services,
+  Offer,
+  Testimonials,
+  Subscribe,
+  Footer,
+} from "./components";
 import "./index.css";
 
 export default function App() {
-  return <h1 className="text-3xl">Hello </h1>;
+  return (
+    <main className="relative">
+      <Nav />
+      <Hero />
+      <Products />
+      <Quality />
+      <Services />
+      <Offer />
+      <Testimonials />
+      <Subscribe />
+      <Footer />
+    </main>
+  );
 }
