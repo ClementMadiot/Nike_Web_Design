@@ -1,6 +1,8 @@
 import React from "react";
 import Button from "../layout/Button"; // Adjust the import path as necessary
 import Title from "../layout/Title"; // Adjust the import path as necessary
+import { BsArrowRightCircle } from "react-icons/bs";
+import { shoe8 } from "../../assets/images";
 
 function Quality() {
   return (
@@ -25,8 +27,13 @@ function Quality() {
           classParagraph2={"lg:max-w-lg mt-6"}
           />
           <div className="mt-11">
-            <Button label="View details" />
+            <Button label="View details" iconUrl={
+                <BsArrowRightCircle className="ml-2 w-5 h-5 bg-white rounded-full text-coral-red border-none" />
+              } />
           </div>
+        </div>
+        <div className="flex-1 flex justify-center items-center">
+          <img src={shoe8} alt="shoe8" width={570} height={522} />
         </div>
       </div>
     </section>
