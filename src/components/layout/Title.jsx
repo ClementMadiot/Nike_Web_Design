@@ -16,7 +16,7 @@ function Title({
   const styleParagraph = "font-montserrat text-slate-gray first-letter:text-coral-red first-letter:font-bold first-letter:text-2xl leading-7 text-lg";
   return (
     <>
-      <h1 className={`${classTitle || "text-4xl lg:max-w-lg"} font-palanquin font-bold`}>
+      <h1 className={` ${classTitle || "text-4xl lg:max-w-lg"} font-palanquin font-bold`}>
         {titleStart}{" "}
         {titleSpan && (
           <>
