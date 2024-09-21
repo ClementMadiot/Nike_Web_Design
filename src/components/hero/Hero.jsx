@@ -3,7 +3,7 @@ import Button from "../layout/Button";
 // data
 import { statistics, shoes } from "../../constants";
 import { bigShoe1 } from "../../assets/images";
-import ShoeCard from "../layout/ShoeCard";
+import ShoeCard from "./ShoeCard";
 import Title from "../layout/Title"; // Add this line to import Title component
 
 function Hero() {

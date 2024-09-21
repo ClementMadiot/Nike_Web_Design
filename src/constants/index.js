@@ -82,7 +82,7 @@ export const services = [
     imgURL: shieldTick,
     label: "Secure Payment",
     subtext:
-      "Experience worry-free transactions with our secure payment options.",
+      "Experience worry-free transactions with our secure payment options. ",
   },
   {
     imgURL: support,
