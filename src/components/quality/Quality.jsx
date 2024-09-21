@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "../layout/Button"; // Adjust the import path as necessary
 import Title from "../layout/Title"; // Adjust the import path as necessary
-import { BsArrowRightCircle } from "react-icons/bs";
 import { shoe8 } from "../../assets/images";
 
 function Quality() {
@@ -15,7 +14,6 @@ function Quality() {
         <div className="flex flex-1 flex-col">
           <Title
           titleStart={"We Provide You"}
-          classTitle={"text-4xl lg:max-w-lg"}
           titleOrange={"Super"}
           titleOrange2={"Quality"}
           titleEnd={"Shoes"}
@@ -27,9 +25,7 @@ function Quality() {
           classParagraph2={"lg:max-w-lg mt-6"}
           />
           <div className="mt-11">
-            <Button label="View details" iconUrl={
-                <BsArrowRightCircle className="ml-2 w-5 h-5 bg-white rounded-full text-coral-red border-none" />
-              } />
+            <Button label="View details" iconUrl={true} />
           </div>
         </div>
         <div className="flex-1 flex justify-center items-center">

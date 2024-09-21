@@ -10,7 +10,6 @@ function Products() {
         <div className="flex flex-col justify-start gap-5">
           <Title
             titleStart={"Our"}
-            classTitle={"text-4xl"}
             titleOrange={"Popular"}
             titleEnd={"Products"}
             paragraph={"Experience top-notch quality and style sought-after selections. Discover a world of comfort, design and value"}
