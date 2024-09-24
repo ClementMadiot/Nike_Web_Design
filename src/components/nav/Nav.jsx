@@ -16,9 +16,10 @@ function Nav() {
             <li key={label}>
               <a
                 href={href}
-                className="font-montserrat leading-normal text-lg text-slate-gray"
+                className="font-montserrat leading-normal text-lg text-slate-gray hover:text-slate-800 group"
               >
                 {label}
+                <div className="bg-slate-800 h-[2px] w-0 group-hover:w-full duration-300"></div>
               </a>
             </li>
           ))}

@@ -18,7 +18,7 @@ function Footer() {
                 <div
                   key={index}
                   className="flex justify-center items-center w-12
-              h-12 bg-white rounded-full"
+              h-12 bg-white rounded-full cursor-pointer hover:scale-105 duration-150"
                 >
                   <img src={item.src} alt={item.alt} width={24} height={24} />
                 </div>
@@ -35,7 +35,7 @@ function Footer() {
                   {item.links.map(({ name, link }, index) => (
                     <li
                       key={index}
-                      className="font-montserrat text-base text-white-400 mt-3 leading-normal hover:text-slate-gray"
+                      className="font-montserrat text-base text-white-400 mt-3 leading-normal hover:text-slate-gray cursor-pointer"
                     >
                       <a href={link}>{name}</a>
                     </li>

@@ -29,10 +29,11 @@ function Offer() {
             classParagraph2={"lg:max-w-lg mt-6"}
           />
           <div className="mt-11 flex flex-wrap gap-4">
-            <Button label="View details" />
+            <Button label="View details" fullWidth={"w-full sm:w-auto"} />
             <Button
               label="Learn more"
               backgroundColor={"bg-white border-slate-gray text-slate-gray"}
+              fullWidth={"w-full sm:w-auto"}
             />
           </div>
         </article>
