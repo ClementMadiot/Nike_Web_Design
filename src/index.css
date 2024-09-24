@@ -12,21 +12,12 @@
   scroll-behavior: smooth;
 }
 
+
 @layer components {
   .max-container {
     max-width: 1440px;
     margin: 0 auto;
   }
-
-  .hover-li:hover::before {
-    content: '';
-    width: 100%;
-    height: 1px;
-    position: absolute;
-    background-color: #1e293b ;
-    transform: translateY(25px);
-  }
-  
 }
 
 @layer utilities {
@@ -56,5 +47,28 @@
 
   .padding-b {
     @apply sm:pb-24 pb-12;
+  }
+
+  .mySwiper .swiper-button-next,
+  .mySwiper .swiper-button-prev {
+    color: #FF6452 ;
+    display: none;
+  }  
+  .mySwiper .swiper-button-prev{
+    left: -2px;
+  }
+  .mySwiper .swiper-button-next{
+    right: -2px;
+  }
+  @media screen and (min-width: 768px) {
+    .mySwiper .swiper-button-next,
+    .mySwiper .swiper-button-prev {
+      display: block;
+    }
+    
+  }
+  .mySwiper .swiper-pagination-bullet,
+  .mySwiper .swiper-pagination-bullet-active {
+    background-color: #FF6452 ;
   }
 }

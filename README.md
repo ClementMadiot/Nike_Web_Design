@@ -29,6 +29,9 @@ Framer Motion is an open source, production-ready library that’s designed for 
 - [react-tilt](https://www.npmjs.com/package/react-tilt?activeTab=readme)
 A tiny request Animation Frame powered 60 fps light weight parallax hover tilt effect for ReactJS.
 
+- [Swiper](https://swiperjs.com/react)
+Swiper - is the free and most modern mobile touch slider with hardware accelerated transitions and amazing native behavior. It is intended to be used in mobile websites, mobile web apps, and mobile native/hybrid apps.
+
 
 ## <br /> <a name="launch-app">🚀 Launch App</a>
 

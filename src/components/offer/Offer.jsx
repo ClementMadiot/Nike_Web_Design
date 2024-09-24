@@ -6,7 +6,7 @@ function Offer() {
   return (
     <section className="padding">
       <div className="max-container flex items-center flex-wrap gap-10 max-xl:flex-col-reverse max-container">
-        <article className="flex-1">
+        <article className="flex-1 ">
           <img
             src={offer}
             alt={offer}
