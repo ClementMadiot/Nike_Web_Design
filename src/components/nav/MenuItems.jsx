@@ -22,10 +22,10 @@ export const MenuItem = () => {
             className="w-10 h-10 flex-[40px_0] mr-5 rounded-[50%]"
             style={{ border: `2px solid ${colors[nav.id]}` }}
           />
-          <div
-            className="w-[200px] h-5 flex-1 rounded-[5px]"
-            style={{ border: `2px solid ${colors[nav.id]}` }}
-          />
+          <div className="flex-1 rounded-[5px] p-[6px]"
+            style={{ border: `2px solid ${colors[nav.id]}` }}>
+            <p className="font-montserrat text-lg text-center">{nav.label}</p>
+          </div>
         </motion.li>
       ))}
     </motion.ul>

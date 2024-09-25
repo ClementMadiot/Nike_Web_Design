@@ -51,24 +51,29 @@
 
   .mySwiper .swiper-button-next,
   .mySwiper .swiper-button-prev {
-    color: #FF6452 ;
+    color: #FF6452;
     display: none;
-  }  
-  .mySwiper .swiper-button-prev{
+  }
+
+  .mySwiper .swiper-button-prev {
     left: -2px;
   }
-  .mySwiper .swiper-button-next{
+
+  .mySwiper .swiper-button-next {
     right: -2px;
   }
+
   @media screen and (min-width: 768px) {
+
     .mySwiper .swiper-button-next,
     .mySwiper .swiper-button-prev {
       display: block;
     }
-    
+
   }
+
   .mySwiper .swiper-pagination-bullet,
   .mySwiper .swiper-pagination-bullet-active {
-    background-color: #FF6452 ;
+    background-color: #FF6452;
   }
 }
