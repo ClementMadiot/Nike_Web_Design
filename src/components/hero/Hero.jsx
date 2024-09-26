@@ -44,7 +44,7 @@ function Hero() {
           </div>
         </div>
         {/* image header  */}
-        <div className="relative flex-1 flex justify-center items-center  max-xl:py-20 sm:max-xl:pb-36 bg-primary bg-hero bg-cover bg-center">
+        <div className="relative flex-1 flex justify-center items-center  max-xl:py-20 sm:max-xl:pb-36 bg-primary bg-hero bg-cover bg-center -z-20">
           <img
             src={bigShoeImg}
             alt="shoe collection"

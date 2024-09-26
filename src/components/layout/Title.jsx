@@ -20,7 +20,7 @@ function Title({
         {titleStart}{" "}
         {titleSpan && (
           <>
-            <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">
+            <span className="xl:bg-white xl:whitespace-nowrap relative pr-10">
               {titleSpan}
             </span>
             <br />

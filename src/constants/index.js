@@ -21,12 +21,6 @@ import {
   thumbnailShoe3,
 } from "../assets/images";
 
-export const navLinks = [
-  { id: 1,href: "#home", label: "Home" },
-  { id: 2,href: "#about-us", label: "About Us" },
-  { id: 3,href: "#products", label: "Products" },
-  { id: 4,href: "#contact-us", label: "Contact Us" },
-];
 
 export const shoes = [
   {

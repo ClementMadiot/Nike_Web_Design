@@ -1,6 +1,6 @@
 import React from "react";
 // data
-import { navLinks } from "../../constants";
+import { navLinks } from "./NavVariants";
 import { headerLogo } from "../../assets/images";
 // import { RxHamburgerMenu } from "react-icons/rx";
 // framer-motion
