@@ -10,7 +10,7 @@ export const Sidebar = () => {
     <motion.div
       initial={false}
       animate={isOpen ? "open" : "closed"}
-      className="hidden max-lg:block absolute -right-[50px] inset-y-0 bg-coral-red w-[230px] h-[290px] backdrop-blur-lg rounded-lg z-50 "
+      className="hidden max-lg:block fixed right-8 top-5 bg-coral-red/25 w-[230px] h-[290px] backdrop-blur-sm rounded-lg z-50 "
       variants={sidebar}
     >
       <MenuToggle toggle={() => toggleOpen()} />

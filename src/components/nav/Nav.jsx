@@ -10,7 +10,7 @@ import { Sidebar } from "./Sidebar";
 function Nav() {
   return (
     <header className="padding-x py-8 absolute z-10 w-full">
-      <nav className="flex justify-between items-center max-container relative">
+      <nav className="flex justify-between items-center max-container relative ">
         <a href="/">
           <img src={headerLogo} alt="Nike-logo" width={130} height={29} />
         </a>
