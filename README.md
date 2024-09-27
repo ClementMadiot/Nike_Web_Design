@@ -19,6 +19,7 @@
 ## <br /> <a name="tech-stack">🛠 Technology Used</a>
 
 - [TailwindCSS](https://tailwindcss.com/docs/installation)
+Tailwind CSS is a valuable tool for developers who want to build modern, responsive, and visually appealing websites without sacrificing development speed.
 
 - [react-icon](https://www.npmjs.com/package/react-icons)
 Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.
