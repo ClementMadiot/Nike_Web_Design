@@ -50,16 +50,7 @@ export const sidebar = {
   }
 };
 
-
-// color li
-export const colors = ["#FFA500", "#FF8C00", "#FF7F00", "#FF6F00", "#FF4500"];
-
-import { FaHome } from "react-icons/fa";
-import { IoMdContact } from "react-icons/io";
-import { IoPeopleCircle } from "react-icons/io5";
-import { GiRunningShoe } from "react-icons/gi";
-
-
+import { FaHome, IoMdContact, IoPeopleCircle, GiRunningShoe } from "../../assets/icons";
 
 export const navLinks = [
   { id: 1,href: "#home", label: "Home", icon: <FaHome className="w-6 h-6"/>},

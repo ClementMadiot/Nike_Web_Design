@@ -1,8 +1,7 @@
-import * as React from "react";
 import { motion } from "framer-motion";
+import * as React from "react";
 // data
-import { variants, delayChildren } from "./NavVariants";
-import { navLinks } from "./NavVariants";
+import { delayChildren, navLinks, variants } from "./NavVariants";
 
 export const MenuItem = () => {
   return (
@@ -16,7 +15,7 @@ export const MenuItem = () => {
           variants={variants}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
-          className="flex items-center cursor-pointer mb-5"
+          className="flex items-center cursor-pointer mb-5 z-50"
         >
           <a href={nav.href} className="flex w-full font-montserrat text-lg text-center hsl(0, 0%, 18%) ">
             <div

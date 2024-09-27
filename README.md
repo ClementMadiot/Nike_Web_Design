@@ -12,9 +12,9 @@
 
 ## <br /> <a name="introduction">✨ Introduction</a>
 
-**[ENG]**
+**[ENG]** This project is inspired by Nike's design. I've developed an immersive web application. Thanks to tools like React, Tailwind CSS, Framer Motion, and Swiper, it's a dynamic and responsive website that captivates users and showcases a range of products.
 
-**[FR]**
+**[FR]** Ce projet s'inspire du design Nike. J'ai créé une application web immersive et dynamique, grâce à React, Tailwind CSS, Framer Motion et Swiper. Elle offre une expérience utilisateur unique et met en valeur une gamme de produits.
 
 ## <br /> <a name="tech-stack">🛠 Technology Used</a>
 
@@ -47,7 +47,7 @@ git clone {git remote URL}
 
 > Once the dependencies are installed, start the project with the command `npm run dev`.
 
-## <br /> <a name="launch-app">🎨 Styling</a>
+## <br /> <a name="style">🎨 Styling</a>
 
 Global styling are defined using TailwindCSS in the tailwind.config.js file.
 

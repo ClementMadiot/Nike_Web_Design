@@ -7,6 +7,12 @@ import star from './star.svg'
 import truckFast from './truck-fast.svg'
 import twitter from './twitter.svg'
 
+// react-icons
+import { FaHome } from "react-icons/fa";
+import { IoMdContact } from "react-icons/io";
+import { IoPeopleCircle } from "react-icons/io5";
+import { GiRunningShoe } from "react-icons/gi";
+
 export {
     facebook,
     instagram,
@@ -15,4 +21,8 @@ export {
     star,
     shieldTick,
     truckFast,
+    FaHome,
+    IoMdContact,
+    IoPeopleCircle,
+    GiRunningShoe
 }

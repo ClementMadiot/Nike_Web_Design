@@ -24,7 +24,7 @@ function Hero() {
             classTitleOrange={"inline-block mt-3"}
             titleEnd={"Shoes"}
             classTitle={
-              "md:text-8xl text-4xl mt-10"
+              "md:text-8xl text-4xl mt-10 lg:z-10"
             }
             paragraph={
               "Discover stylish Nike arrivals, quality comfort and innovation for you active life."
