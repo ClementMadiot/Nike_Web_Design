@@ -44,13 +44,13 @@ function Hero() {
           </div>
         </div>
         {/* image header  */}
-        <div className="relative flex-1 flex justify-center items-center  max-xl:py-20 sm:max-xl:pb-36 bg-primary bg-hero bg-cover bg-center -z-20">
+        <div className="relative flex-1 flex justify-center items-center  max-xl:py-20 sm:max-xl:pb-36 bg-primary bg-hero bg-cover bg-center ">
           <img
             src={bigShoeImg}
             alt="shoe collection"
             width={310}
             height={302}
-            className="object-contain relative z-10 w-[310px] sm:w-[410px]"
+            className="object-contain relative z-10 "
           />
           <div className="flex gap-4 sm:gap-6 absolute -bottom-[10%] sm:left-[10%] max-sm:px-6">
             {shoes.map((shoe, index) => (

@@ -8,7 +8,7 @@ function ShoeCard({ imgURL, bigShoeImg, changeBigShoe }) {
   };
   return (
     <div
-      className={`border-2 rounded-xl cursor-pointer max-sm:flex-1 hover:scale-105 duration-150 ${
+      className={`border-2 rounded-xl cursor-pointer max-sm:flex-1 hover:scale-105 duration-150 z-50 ${
         bigShoeImg === imgURL.bigShoe 
         ? "border-coral-red hover:border-coral-red" 
         : "border-transparent"

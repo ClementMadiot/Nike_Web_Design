@@ -12,7 +12,6 @@
   scroll-behavior: smooth;
 }
 
-
 @layer components {
   .max-container {
     max-width: 1440px;
@@ -21,6 +20,28 @@
 }
 
 @layer utilities {
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: hsl(0, 0%, 18%);
+    border-radius: 5px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ff6452;
+  }
+
   .padding {
     @apply sm:px-16 px-8 sm:py-24 py-12;
   }
